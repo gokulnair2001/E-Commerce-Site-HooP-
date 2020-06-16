@@ -3,20 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5AB9E323A56D0C008D16EF /* Pods_login_logout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14CA4920679A99D636078E /* Pods_login_logout.framework */; };
+		55086677247B9101006C7E88 /* gokulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55086676247B9101006C7E88 /* gokulViewController.swift */; };
+		55098888247FFDBE00267BAC /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55098887247FFDBE00267BAC /* addViewController.swift */; };
 		550F5B082479485D00DB3AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F5B072479485D00DB3AAE /* AppDelegate.swift */; };
 		550F5B0A2479485D00DB3AAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F5B092479485D00DB3AAE /* SceneDelegate.swift */; };
 		550F5B0C2479485D00DB3AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F5B0B2479485D00DB3AAE /* ViewController.swift */; };
 		550F5B0F2479485D00DB3AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550F5B0D2479485D00DB3AAE /* Main.storyboard */; };
 		550F5B112479485E00DB3AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550F5B102479485E00DB3AAE /* Assets.xcassets */; };
 		550F5B142479485E00DB3AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550F5B122479485E00DB3AAE /* LaunchScreen.storyboard */; };
+		5580C9D5247BDDD400EF894C /* productViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580C9D4247BDDD400EF894C /* productViewController.swift */; };
+		558A7CB2247949A7001394D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A7CB1247949A7001394D2 /* GoogleService-Info.plist */; };
+		558A7CB424794C5E001394D2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A7CB324794C5E001394D2 /* SignUpViewController.swift */; };
+		558A7CB624794C71001394D2 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A7CB524794C71001394D2 /* homeViewController.swift */; };
+		558A7CBA2479705E001394D2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A7CB92479705E001394D2 /* File.swift */; };
+		55F58E44247A6FEF00884481 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F58E43247A6FEF00884481 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		550F5B042479485D00DB3AAE /* login-logout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-logout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4325D4254252C2AA5F469FE6 /* Pods-login-logout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login-logout.release.xcconfig"; path = "Target Support Files/Pods-login-logout/Pods-login-logout.release.xcconfig"; sourceTree = "<group>"; };
+		55086676247B9101006C7E88 /* gokulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gokulViewController.swift; sourceTree = "<group>"; };
+		55098887247FFDBE00267BAC /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addViewController.swift; path = "/Users/gokul/Desktop/login-logout/login-logout/addViewController.swift"; sourceTree = "<absolute>"; };
+		550F5B042479485D00DB3AAE /* HooP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HooP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		550F5B072479485D00DB3AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		550F5B092479485D00DB3AAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		550F5B0B2479485D00DB3AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		550F5B102479485E00DB3AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550F5B132479485E00DB3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		550F5B152479485E00DB3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5580C9D4247BDDD400EF894C /* productViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = productViewController.swift; path = ../productViewController.swift; sourceTree = "<group>"; };
+		558A7CB1247949A7001394D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		558A7CB324794C5E001394D2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		558A7CB524794C71001394D2 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		558A7CB92479705E001394D2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = "/Users/gokul/Desktop/login-logout/login-logout/File.swift"; sourceTree = "<absolute>"; };
+		55F58E43247A6FEF00884481 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CE14CA4920679A99D636078E /* Pods_login_logout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login_logout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7236C223A503FE9DBC85EDE /* Pods-login-logout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login-logout.debug.xcconfig"; path = "Target Support Files/Pods-login-logout/Pods-login-logout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +51,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5AB9E323A56D0C008D16EF /* Pods_login_logout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		469829563235BC74BB8CDD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE14CA4920679A99D636078E /* Pods_login_logout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		550F5AFB2479485D00DB3AAE = {
 			isa = PBXGroup;
 			children = (
 				550F5B062479485D00DB3AAE /* login-logout */,
 				550F5B052479485D00DB3AAE /* Products */,
+				81691518EE4678A58ABEAFA7 /* Pods */,
+				469829563235BC74BB8CDD56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		550F5B052479485D00DB3AAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				550F5B042479485D00DB3AAE /* login-logout.app */,
+				550F5B042479485D00DB3AAE /* HooP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +89,30 @@
 			children = (
 				550F5B072479485D00DB3AAE /* AppDelegate.swift */,
 				550F5B092479485D00DB3AAE /* SceneDelegate.swift */,
+				55098887247FFDBE00267BAC /* addViewController.swift */,
 				550F5B0B2479485D00DB3AAE /* ViewController.swift */,
 				550F5B0D2479485D00DB3AAE /* Main.storyboard */,
+				55086676247B9101006C7E88 /* gokulViewController.swift */,
+				558A7CB524794C71001394D2 /* homeViewController.swift */,
+				558A7CB324794C5E001394D2 /* SignUpViewController.swift */,
+				55F58E43247A6FEF00884481 /* ProfileViewController.swift */,
+				5580C9D4247BDDD400EF894C /* productViewController.swift */,
+				558A7CB92479705E001394D2 /* File.swift */,
+				558A7CB1247949A7001394D2 /* GoogleService-Info.plist */,
 				550F5B102479485E00DB3AAE /* Assets.xcassets */,
 				550F5B122479485E00DB3AAE /* LaunchScreen.storyboard */,
 				550F5B152479485E00DB3AAE /* Info.plist */,
 			);
 			path = "login-logout";
+			sourceTree = "<group>";
+		};
+		81691518EE4678A58ABEAFA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7236C223A503FE9DBC85EDE /* Pods-login-logout.debug.xcconfig */,
+				4325D4254252C2AA5F469FE6 /* Pods-login-logout.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 550F5B182479485E00DB3AAE /* Build configuration list for PBXNativeTarget "login-logout" */;
 			buildPhases = (
+				F7D2EE9BE60AC13D88D7EA3C /* [CP] Check Pods Manifest.lock */,
 				550F5B002479485D00DB3AAE /* Sources */,
 				550F5B012479485D00DB3AAE /* Frameworks */,
 				550F5B022479485D00DB3AAE /* Resources */,
+				B6DDAE3FA45538CEDAB073CF /* [CP] Embed Pods Frameworks */,
+				058348FC9734A15A1D9C2CB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -84,7 +135,7 @@
 			);
 			name = "login-logout";
 			productName = "login-logout";
-			productReference = 550F5B042479485D00DB3AAE /* login-logout.app */;
+			productReference = 550F5B042479485D00DB3AAE /* HooP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				550F5B142479485E00DB3AAE /* LaunchScreen.storyboard in Resources */,
+				558A7CB2247949A7001394D2 /* GoogleService-Info.plist in Resources */,
 				550F5B112479485E00DB3AAE /* Assets.xcassets in Resources */,
 				550F5B0F2479485D00DB3AAE /* Main.storyboard in Resources */,
 			);
@@ -133,14 +185,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		058348FC9734A15A1D9C2CB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login-logout/Pods-login-logout-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login-logout/Pods-login-logout-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-login-logout/Pods-login-logout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DDAE3FA45538CEDAB073CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login-logout/Pods-login-logout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login-logout/Pods-login-logout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-login-logout/Pods-login-logout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D2EE9BE60AC13D88D7EA3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-login-logout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		550F5B002479485D00DB3AAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5580C9D5247BDDD400EF894C /* productViewController.swift in Sources */,
 				550F5B0C2479485D00DB3AAE /* ViewController.swift in Sources */,
+				558A7CBA2479705E001394D2 /* File.swift in Sources */,
 				550F5B082479485D00DB3AAE /* AppDelegate.swift in Sources */,
+				558A7CB424794C5E001394D2 /* SignUpViewController.swift in Sources */,
+				558A7CB624794C71001394D2 /* homeViewController.swift in Sources */,
+				55086677247B9101006C7E88 /* gokulViewController.swift in Sources */,
 				550F5B0A2479485D00DB3AAE /* SceneDelegate.swift in Sources */,
+				55098888247FFDBE00267BAC /* addViewController.swift in Sources */,
+				55F58E44247A6FEF00884481 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +400,7 @@
 		};
 		550F5B192479485E00DB3AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7236C223A503FE9DBC85EDE /* Pods-login-logout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +411,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gokulnair.login-logout";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HooP;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +419,7 @@
 		};
 		550F5B1A2479485E00DB3AAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4325D4254252C2AA5F469FE6 /* Pods-login-logout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gokulnair.login-logout";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HooP;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
